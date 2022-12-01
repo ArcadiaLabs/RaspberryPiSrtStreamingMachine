@@ -1,4 +1,4 @@
-## Install the right FFmpeg binary on the Raspberry Pi
+# Install the right FFmpeg binary on the Raspberry Pi
 
 In order to capture and re-send the stream, we are using FFmpeg. However, we could not just install FFmpeg using apt because it won't come with SRT support. So we have to use a special build.
 
