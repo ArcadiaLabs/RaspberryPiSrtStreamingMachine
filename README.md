@@ -18,7 +18,7 @@ About the relay, it's quite easy to set up a PC with OBS acting as a relay. But 
 ### Performance
 Using a 4Gb Raspberry Pi 4 with Raspberry OS 64bits (bullseye), re-streaming to Twitch :
 
-    OBS scene streaming : 1080p30, 6000 kbps
+    Gaming PC OBS scene streaming : 1080p30, 6000 kbps
     Raspberry Pi re-streaming at 1080p/30, 6000 kbps
     CPU : 5-10%
 
