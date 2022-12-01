@@ -44,6 +44,7 @@ To globally install it you need to move the binary into your shell's path. "PATH
     /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 
 Before moving the ffmpeg binary into the shell's path, check to see if an older version of ffmpeg is already installed :
+
     $ whereis ffmpeg 
     ffmpeg: /usr/bin/ffmpeg
 
