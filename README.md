@@ -60,7 +60,7 @@ Now the SRT enabled ffmpeg is globally installed !
 
 You will need a Twitch account, a streaming key and your nearest ingest endpoint. The ingest endpoint is a URL where you send your video and audio data to, and ideally you want the one closest to your location.
 
-* Go to [stream.twitch.tv/ingests](https://stream.twitch.tv/ingests/) and find the ingest endpoint nearest to you. This site will show the recommended ones, and it will be something like `rtmp://live-lhr.twitch.tv/app/{stream_key}`. Make a copy of this value somewhere.
+* Go to [stream.twitch.tv/ingests](https://stream.twitch.tv/ingests/) and find the ingest endpoint nearest to you. This site will show the recommended ones, and it will be something like `rtmp://mrs02.contribute.live-video.net/app/{stream_key}`. Make a copy of this value somewhere.
 
   ![The ingest endpoints](./images/IngestEndpoints.png)
 
