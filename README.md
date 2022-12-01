@@ -77,13 +77,13 @@ You will need a Twitch account, a streaming key and your nearest ingest endpoint
 
 Get the relay script using :
 
-    $ wget https://github.com/ArcadiaLabs/raspberry_srt_relay_to_twitch/raw/main/stream.sh
+    $ wget https://github.com/ArcadiaLabs/raspberry_srt_relay_to_twitch/raw/main/srt_relay.sh
 
 ### Configure the relay script
 
 You will have to edit some variables inside the script to suit your own setup. So open it in nano :
 
-    $ nano stream.sh
+    $ nano srt_relay.sh
     
 Edit the "localip" and "port" variables with the Raspberry Pi local IP and the listen port. The listen port could be anything between 10000 and 65536.
 
@@ -96,6 +96,6 @@ Now, save and exit the script using `<CTRL+O>`, `<ENTER>`, `<CTRL+X>`
 ### Make the script executable
 Make the script executable using :
 
-    $ chmod +x stream.sh
+    $ chmod +x srt_relay.sh
 
 **_To be continued..._**
