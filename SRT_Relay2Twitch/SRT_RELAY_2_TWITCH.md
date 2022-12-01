@@ -39,7 +39,7 @@ You will need a Twitch account, a streaming key and your nearest ingest endpoint
 
 Get the relay script using :
 
-    $ wget https://github.com/ArcadiaLabs/raspberry_srt_relay_to_twitch/raw/main/srt_relay.sh
+    $ wget https://github.com/ArcadiaLabs/raspberry_srt_relay_to_twitch/raw/main/SRT_Relay2Twitch/srt_relay.sh
 
 ### Configure the relay script
 
