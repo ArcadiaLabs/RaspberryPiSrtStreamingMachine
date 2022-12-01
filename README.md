@@ -51,6 +51,7 @@ Before moving the ffmpeg binary into the shell's path, check to see if an older 
 There's a FFmpeg binary already installed in /usr/bin, so I have to either uninstall it using `sudo apt remove ffmpeg` or delete it using `sudo rm -rf /usr/bin/ffmpeg`
 
 Now the older FFmpeg binary has been removed, move the static binaries ffmpeg and ffprobe into the shell's path :
+
     $ sudo cp ffmpeg ffprobe /usr/bin/
 
 Now the SRT enabled ffmpeg is globally installed !
