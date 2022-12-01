@@ -13,7 +13,14 @@ Here is a very simple diagram :
 
   ![SRT relay diagram](./images/srt_relay.drawio.png)
 
-About the relay, it's quite easy to set up a PC with OBS acting as a relay. But the PC needs to be quite powerful to be able to capture, decode, re-encode and send the stream inside OBS. Using the right tools, this task could be done using a low power Raspberry Pi 4 (4Gb of RAM in my case). I could re-stream a 1080p/30fps stream with no problem.
+About the relay, it's quite easy to set up a PC with OBS acting as a relay. But the PC needs to be quite powerful to be able to capture, decode, re-encode and send the stream inside OBS. Using the right tools, this task could be done using a low power Raspberry Pi 4 (4Gb of RAM in my case). 
+
+### Performance
+Using a 4Gb Raspberry Pi 4 with Raspberry OS 64bits (bullseye), re-streaming to Twitch :
+
+    OBS scene streaming : 1080p30, 6000 kbps
+    Raspberry Pi re-streaming at 1080p/30, 6000 kbps
+    CPU : 5-10%
 
 ## Install the right FFmpeg binary on the Raspberry Pi
 
