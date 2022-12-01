@@ -22,11 +22,11 @@ In order to capture and re-send the stream, we are using FFmpeg. However, we cou
 ### Download the right FFmpeg build
 If you are using a Raspberry Pi 4 with Raspberry OS 64 bits (recommended !) :
 
-    $ wget https://github.com/ArcadiaLabs/raspberry_srt_relay_to_twitch/blob/main/ffmpeg_static_releases/ffmpeg-release-arm64-static.tar.xz
+    $ wget https://github.com/ArcadiaLabs/raspberry_srt_relay_to_twitch/raw/main/ffmpeg_static_releases/ffmpeg-release-arm64-static.tar.xz
 
 If you are using a Raspberry Pi 4 with Raspberry OS 32 bits :
 
-    $ wget https://github.com/ArcadiaLabs/raspberry_srt_relay_to_twitch/blob/main/ffmpeg_static_releases/ffmpeg-release-armhf-static.tar.xz
+    $ wget https://github.com/ArcadiaLabs/raspberry_srt_relay_to_twitch/raw/main/ffmpeg_static_releases/ffmpeg-release-armhf-static.tar.xz
 
 ### Unpack the build
     $ tar xvf ffmpeg-release-<VERSION>-static.tar.xz` (replace <VERSION> with either arm64 or armhf)
