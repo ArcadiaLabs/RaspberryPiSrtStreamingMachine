@@ -11,7 +11,7 @@ So, if you want to stream from your random internet connection, you have to stre
 
 Here is a very simple diagram :
 
-[OBS on data connection] --(SRT)--> [Relay] --(RTMP)--> [Streaming platform]
+    [OBS on data connection] --(SRT)--> [Relay] --(RTMP)--> [Streaming platform]
 
 About the relay, it's quite easy to set up a PC with OBS acting as a relay. But the PC needs to be quite powerful to be able to capture, decode, re-encode and send the stream inside OBS. Using the right tools, this task could be done using a low power Raspberry Pi 4 (4Gb of RAM in my case). I could re-stream a 1080p/30fps stream with no problem.
 
