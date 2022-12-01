@@ -31,7 +31,7 @@ If you are using a Raspberry Pi 4 with Raspberry OS 32 bits :
 ### Unpack the build
     $ tar xvf ffmpeg-release-<VERSION>-static.tar.xz` (replace <VERSION> with either arm64 or armhf)
 
-Now you have a "ffmpeg-<VERSION>-static" directory :
+Now you have a `ffmpeg-<VERSION>-static` directory :
 
     $ ls
     ffmpeg-5.1.1-arm64-static  ffmpeg-release-arm64-static.tar.xz
