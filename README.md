@@ -86,11 +86,11 @@ You will have to edit some variables inside the script to suit your own setup. S
     
 Edit the "localip" and "port" variables with the Raspberry Pi local IP and the listen port. The listen port could be anything between 10000 and 65536.
 
-The "endpoint" variable should be set to the ingest endpoint you noted earlier, without the {stream_key} part. So if your endpoint is 'rtmp://mrs02.contribute.live-video.net/app/{stream_key}', then the endpoint variable should be 'rtmp://mrs02.contribute.live-video.net/app/'
+The "endpoint" variable should be set to the ingest endpoint you noted earlier, without the {stream_key} part. So if your endpoint is `rtmp://mrs02.contribute.live-video.net/app/{stream_key}`, then the endpoint variable should be `rtmp://mrs02.contribute.live-video.net/app/`
 
 The "streamkey" variable should be set to the Primary Stream key you found earlier.
 
-Now, save and exit the script using <CTRL+O>, <ENTER>, <CTRL+X>
+Now, save and exit the script using `<CTRL+O>`, `<ENTER>`, `<CTRL+X>`
 
 ### Make the script executable
 Make the script executable using :
