@@ -31,16 +31,17 @@ If you are using a Raspberry Pi 4 with Raspberry OS 32 bits :
 ### Unpack the build
     $ tar xvf ffmpeg-release-<VERSION>-static.tar.xz` (replace <VERSION> with either arm64 or armhf)
 
-Now you have a "ffmpeg-release-<VERSION>-static" directory :
+Now you have a "ffmpeg-<VERSION>-static" directory :
 
-    $ cd ffmpeg-release-<VERSION>-static
     $ ls
+    ffmpeg-5.1.1-arm64-static  ffmpeg-release-arm64-static.tar.xz
+    $ ls ffmpeg-5.1.1-arm64-static
     ffmpeg  ffprobe  GPLv3.txt  manpages  model  qt-faststart  readme.txt
 
 ### Install the build
 To globally install it you need to move the binary into your shell's path. "PATH" is a variable in your environment set to a list of colon seperated directories the shell uses to locate binaries. Here's my own system's path :
 
-    echo $PATH
+    $ echo $PATH
     /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 
 Before moving the ffmpeg binary into the shell's path, check to see if an older version of ffmpeg is already installed :
@@ -52,7 +53,7 @@ There's a FFmpeg binary already installed in /usr/bin, so I have to either unins
 
 Now the older FFmpeg binary has been removed, move the static binaries ffmpeg and ffprobe into the shell's path :
 
-    $ sudo cp ffmpeg ffprobe /usr/bin/
+    $ sudo cp ffmpeg-5.1.1-arm64-static/ffmpeg ffmpeg-5.1.1-arm64-static/ffprobe /usr/bin/
 
 Now the SRT enabled ffmpeg is globally installed !
 
@@ -76,7 +77,7 @@ You will need a Twitch account, a streaming key and your nearest ingest endpoint
 
 Get the relay script using :
 
-    $ wget https://github.com/ArcadiaLabs/raspberry_srt_relay_to_twitch/blob/main/stream.sh
+    $ wget https://github.com/ArcadiaLabs/raspberry_srt_relay_to_twitch/raw/main/stream.sh
 
 ### Configure the relay script
 
