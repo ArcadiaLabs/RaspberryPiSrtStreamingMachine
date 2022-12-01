@@ -25,7 +25,7 @@ You will need a Twitch account, a streaming key and your nearest ingest endpoint
 
 * Go to [stream.twitch.tv/ingests](https://stream.twitch.tv/ingests/) and find the ingest endpoint nearest to you. This site will show the recommended ones, and it will be something like `rtmp://mrs02.contribute.live-video.net/app/{stream_key}`. Make a copy of this value somewhere.
 
-  ![The ingest endpoints](./images/IngestEndpoints.png)
+  ![The ingest endpoints](../images/IngestEndpoints.png)
 
 * Head to [twitch.tv](https://www.twitch.tv) and sign up or sign in
 
@@ -33,7 +33,7 @@ You will need a Twitch account, a streaming key and your nearest ingest endpoint
 
 * Select *SETTINGS -> Channel* to find your Primary Stream key. Copy this value using the **Copy** button.
   
-  ![The stream key in the channel settings](./images/StreamKey.png)
+  ![The stream key in the channel settings](../images/StreamKey.png)
 
 ## Get and configure the relay script
 
