@@ -1,5 +1,4 @@
 # A Raspberry Pi based SRT Relay to Twitch
-Recently there has been a massive rise in the popularity of live streaming video. Platforms like [Twitch](https://www.twitch.tv) host streams not only from gamers, but from software developers as well.
 
 If you want to stream your gameplay from a gaming PC using OBS and your high bandwidth internet connection, it's pretty easy. However, if you want to stream from the outside using a data plan, it becomes quite difficult. The 3G/4G/5G is often too unstable with a too low bandwidth to stream with a sufficient quality, and the stream often drops.
 
@@ -12,8 +11,6 @@ So, if you want to stream from your random internet connection, you have to stre
 Here is a very simple diagram :
 
   ![SRT relay diagram](../images/srt_relay.drawio.png)
-
-About the relay, it's quite easy to set up a PC with OBS acting as a relay. But the PC needs to be quite powerful to be able to capture, decode, re-encode and send the stream inside OBS. Using the right tools, this task could be done using a low power Raspberry Pi 4 (4Gb of RAM in my case). I could re-stream a 1080p/30fps stream with no problem.
 
 ## Install the right FFmpeg binary on the Raspberry Pi
 
