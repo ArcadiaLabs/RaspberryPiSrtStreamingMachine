@@ -17,7 +17,7 @@ Here is a very simple diagram :
 
 About the relay, it's quite easy to set up a PC with OBS acting as a relay. But the PC needs to be quite powerful to be able to capture, decode, re-encode and send the stream inside OBS. Using the right tools, this task could be done using a low power Raspberry Pi 4 (4Gb of RAM in my case) : I could re-stream a 1080p/30fps stream with no problem.
 
-To build your own Raspberry Pi based SRT Relay to Twitch, follow [this guide](https://github.com/ArcadiaLabs/raspberry_srt_relay_to_twitch/blob/main/SRT_Relay2Twitch/SRT_RELAY_2_TWITCH.md)
+To build your own Raspberry Pi based SRT Relay to Twitch, follow [this guide](https://github.com/ArcadiaLabs/RaspberryPiSrtStreamingMachine/blob/main/SRT_Relay2Twitch/SRT_RELAY_2_TWITCH.md)
 
 ### A Raspberry Pi based SRT streamer to OBS
 
@@ -27,6 +27,6 @@ Here is another simple diagram :
 
   ![SRT relay diagram](./images/srt_to_obs.drawio.png)
   
-To build your own Raspberry Pi based SRT streamer to OBS, follow [this guide](https://github.com/ArcadiaLabs/raspberry_srt_relay_to_twitch/blob/main/SRT_Streamer2OBS/SRT_STREAMER_2_OBS.md)
+To build your own Raspberry Pi based SRT streamer to OBS, follow [this guide](https://github.com/ArcadiaLabs/RaspberryPiSrtStreamingMachine/blob/main/SRT_Streamer2OBS/SRT_STREAMER_2_OBS.md)
 
 

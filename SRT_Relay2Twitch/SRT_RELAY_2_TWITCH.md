@@ -14,7 +14,7 @@ Here is a very simple diagram :
 
 ## Install the right FFmpeg binary on the Raspberry Pi
 
-First, install the right FFmpeg binary using [this guide](https://github.com/ArcadiaLabs/raspberry_srt_relay_to_twitch/blob/main/FFmpeg_INSTALL.md)
+First, install the right FFmpeg binary using [this guide](https://github.com/ArcadiaLabs/RaspberryPiSrtStreamingMachine/blob/main/FFmpeg_INSTALL.md)
 
 ## Configure Twitch
 
@@ -36,7 +36,7 @@ You will need a Twitch account, a streaming key and your nearest ingest endpoint
 
 Get the relay script using :
 
-    $ wget https://github.com/ArcadiaLabs/raspberry_srt_relay_to_twitch/raw/main/SRT_Relay2Twitch/srt_relay.sh
+    $ wget https://github.com/ArcadiaLabs/RaspberryPiSrtStreamingMachine/raw/main/SRT_Relay2Twitch/srt_relay.sh
 
 ### Configure the relay script
 
