@@ -12,7 +12,7 @@ If you are using a Raspberry Pi 4 with Raspberry OS 32 bits :
     $ wget https://github.com/ArcadiaLabs/RaspberryPiSrtStreamingMachine/raw/main/ffmpeg_static_releases/ffmpeg-release-armhf-static.tar.xz
 
 ### Unpack the build
-    $ tar xvf ffmpeg-release-<VERSION>-static.tar.xz` (replace <VERSION> with either arm64 or armhf)
+    $ tar xvf ffmpeg-release-<VERSION>-static.tar.xz (replace <VERSION> with either arm64 or armhf)
 
 Now you have a `ffmpeg-<VERSION>-static` directory :
 
